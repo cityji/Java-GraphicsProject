@@ -1,4 +1,3 @@
-import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
@@ -6,7 +5,8 @@ import javax.swing.JFrame;
 class DrSnow extends JComponent {
 
   public void paint(Graphics g) {
-    // hands
+    // hands 
+    
     g.setColor(java.awt.Color.black);
     g.fillOval(20, 230, 120, 10);
     g.fillOval(180, 230, 120, 10);
@@ -60,7 +60,7 @@ class DrSnow extends JComponent {
 class DrSnowMan {
 
   public static void main(String[] args) {
-    JFrame w = new JFrame("Drawing Snow Man by Nik");
+    JFrame w = new JFrame("Drawing Snow Man by Nikhil");
 
     w.setVisible(true);
     w.setSize(500, 500);

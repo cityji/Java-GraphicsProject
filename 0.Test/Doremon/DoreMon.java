@@ -3,7 +3,7 @@ import java.awt.Graphics;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-class G extends JComponent{
+class DrDoremon extends JComponent{
     public void paint(Graphics g){
         g.drawString("Java Swing", 235, 50);
         g.setColor(Color.white);
@@ -98,12 +98,12 @@ class G extends JComponent{
     }
 }
 
-class Test{
+class DoreMon{
     public static void main(String[] args) {
         JFrame w = new JFrame("Try Me!");
         w.setVisible(true);
         w.setSize(550,500);
         w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        w.getContentPane().add(new G());
+        w.getContentPane().add(new DrDoremon());
     }
 }

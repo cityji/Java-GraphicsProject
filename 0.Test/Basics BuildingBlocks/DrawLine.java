@@ -1,10 +1,7 @@
 
-import java.awt.Color;
 import java.awt.Graphics;
-
 import javax.swing.JComponent;
 import javax.swing.JFrame;
-import java.awt.Color;
 
 class DrSnow extends JComponent{
     public void paint(Graphics g){
